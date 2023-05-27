@@ -1,0 +1,28 @@
+package Test;
+
+public class RecordMaze1 {
+
+    private char[][][] mazeSet;
+    private int[] mazeTimeSet;
+    private int count;
+    private int amount;
+
+    public RecordMaze1(int amount) {
+        mazeSet = new char[amount][][];
+        mazeTimeSet = new int[amount];
+        count = 0;
+    }
+
+    public void addMaze(char[][] maze, int time) {
+        if (count <= amount) {
+            mazeSet[count] = maze;
+            mazeTimeSet[count] = time;
+            System.out.println("Saved successfully");
+        } else {
+            System.out.println("Index is full");
+        }
+
+    }
+
+   
+}
