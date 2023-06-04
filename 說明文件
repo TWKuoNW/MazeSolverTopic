@@ -1,3 +1,5 @@
-Topic為一個JavaProject可直接下載Open
-或
-點擊Topic/src，將裡面4個Java檔下載並放在同意個package內
+每個Version版本為我的不同進度
+只要下載最新版就可以了
+請設定好java及python環境
+並確認已安裝過pygame套件
+command : pip install pygame
